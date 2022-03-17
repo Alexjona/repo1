@@ -37,6 +37,23 @@ p {
 /* fin global */
 
 
+/* Gradiente */
+
+.hero-banner {
+    background: linear-gradient(90deg, rgb(48, 144, 189) 0%, rgba(235, 236, 236, 0.953) 24%, rgba(21, 186, 219, 0) 100%);
+}
+
+
+/* Transformacion */
+
+.trans {
+    transform: rotate(-5deg);
+}
+
+
+/* Animacion */
+
+
 /*definimos el grid layout*/
 
 .contenedor {
@@ -205,6 +222,20 @@ p {
 
 .contenido__titulo--xxl {
     font-size: 6.5rem;
+}
+
+.contenedor-h1 {
+    -webkit-animation: mymove infinite;
+    -webkit-animation-duration: 3s;
+}
+
+@-webkit-keyframes mymove {
+    from {
+        top: -15px;
+    }
+    to {
+        top: 0px;
+    }
 }
 
 .contenido__titulo--xl {
