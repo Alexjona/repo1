@@ -113,7 +113,7 @@ p {
 }
 
 .botonera-nav {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
     display: inline-block;
     vertical-align: middle;
     font-size: 2.0rem;
@@ -244,6 +244,9 @@ p {
 
 .contenido__titulo--xl {
     font-size: 5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenido__text {
@@ -255,18 +258,14 @@ p {
 .contenido__titulo--L {
     display: block;
     font-size: 2.5rem;
-    width: 600px;
     height: auto;
     text-align: center;
     box-sizing: content-box;
 }
 
 .contenido__img--final {
-    width: 600px;
     height: auto;
-    padding: 30px 30px;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .nosotros__img--fluid {
@@ -309,13 +308,16 @@ p {
 }
 
 .pie__titulo--md {
+    font-family: 'Anton', sans-serif;
     font-size: 2rem;
+    color: #063041;
 }
 
 
 /* fin footer */
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
     .contenedor {
         grid-template-columns: 50vw 50vw;
         grid-template-rows: repeat(4, auto);
@@ -338,7 +340,7 @@ p {
         justify-content: center;
     }
     .contenido__img--fluid {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -365,4 +367,4 @@ p {
         width: 100%;
         height: auto;
     }
-}
+} */
