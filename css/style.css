@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand&family=Roboto:wght@100;700&display=swap');
 
 /* inicio global */
 
@@ -82,80 +82,33 @@ p {
 
 /* Inicio Nav */
 
-.texto-nav {
-    padding: 10px 30px;
+.botonera-icon {
+    display: inline;
+    size: 1000px;
 }
 
-.botonera {
-    background-color: rgba(177, 245, 255, .9);
-    /*position*/
-    box-sizing: border-box;
-    text-decoration: none;
-    position: sticky;
-    top: 0;
-    /*padding*/
-    padding: 10px 30px;
-    /****display flex****/
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
+.botonera-color {
+    background-color: #19A1D8;
 }
 
-.botonera-text {
+.botonera-text-title {
     font-family: 'Anton', sans-serif;
     display: inline-block;
-    vertical-align: middle;
-    font-size: 2.5rem;
-    color: #063041;
+    text-align: justify;
+    font-size: 3em;
+    color: white;
     align-content: center;
 }
 
 .botonera-nav {
-    font-family: 'Anton', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     vertical-align: middle;
     font-size: 2.0rem;
-    color: #063041;
+    color: white;
     align-content: center;
-}
-
-.botonera img {
-    display: flex;
-    flex-direction: row;
-    padding: 10px 10px;
-    width: 70px;
-    height: 70px;
-    justify-content: space-between;
-}
-
-.botonera p {
-    color: #031218;
-    line-height: 2rem;
-    font-size: 2.5rem;
-}
-
-.botonera ul {
-    /****display flex****/
-    display: flex;
-}
-
-.botonera ul li {
-    list-style: none;
-    margin-right: 20px;
-}
-
-.botonera ul li a {
-    text-decoration: none;
-    color: #5B5959;
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.botonera ul li a:hover {
-    color: #19A1D8;
-    font-weight: 600;
 }
 
 
@@ -310,7 +263,7 @@ p {
 .pie__titulo--md {
     font-family: 'Anton', sans-serif;
     font-size: 2rem;
-    color: #063041;
+    color: white;
 }
 
 
