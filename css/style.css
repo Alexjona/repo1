@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Anton&family=Quicksand&family=Roboto:wght@100;700&display=swap');
 
 /* inicio global */
 
@@ -83,8 +83,10 @@ p {
 /* Inicio Nav */
 
 .botonera-icon {
+    width: 5em;
+    height: 5em;
     display: inline;
-    size: 1000px;
+    size: 5em;
 }
 
 .botonera-color {
@@ -94,7 +96,10 @@ p {
 .botonera-text-title {
     font-family: 'Anton', sans-serif;
     display: inline-block;
+    justify-content: center;
     text-align: justify;
+    vertical-align: middle;
+    margin-left: 10px;
     font-size: 3em;
     color: white;
     align-content: center;
@@ -103,7 +108,7 @@ p {
 .botonera-nav {
     margin: 10px;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
     display: inline-block;
     vertical-align: middle;
     font-size: 2.0rem;
@@ -178,7 +183,13 @@ p {
 }
 
 .contenido__titulo--xxl {
-    font-size: 6.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 6.5em;
+}
+
+.contenido__titulo--xl {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 5em;
 }
 
 .contenedor-h1 {
@@ -195,22 +206,23 @@ p {
     }
 }
 
-.contenido__titulo--xl {
-    font-size: 5rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 .contenido__text {
+    font-family: 'Advent Pro', sans-serif;
     text-align: justify;
     align-items: center;
-    font-size: 2.7rem;
+    font-size: 2.7em;
+}
+
+.contenido__textb {
+    font-family: 'Advent Pro', sans-serif;
+    justify-content: center;
+    font-size: 2.7em;
 }
 
 .contenido__titulo--L {
+    font-family: 'Anton', sans-serif;
     display: block;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     height: auto;
     text-align: center;
     box-sizing: content-box;
@@ -232,6 +244,21 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    padding-top: 8px;
+}
+
+.boton {
+    width: 200px;
+    height: 50px;
 }
 
 
