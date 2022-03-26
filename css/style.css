@@ -187,6 +187,12 @@ p {
     font-size: 6.5em;
 }
 
+.Nos_contenido__titulo--xxl {
+    font-family: 'Anton', sans-serif;
+    font-size: 6.5em;
+    text-align: center;
+}
+
 .contenido__titulo--xl {
     font-family: 'Advent Pro', sans-serif;
     font-size: 5em;
