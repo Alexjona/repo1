@@ -193,9 +193,16 @@ p {
     text-align: center;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contenido__titulo--xl {
     font-family: 'Advent Pro', sans-serif;
     font-size: 5em;
+    vertical-align: middle;
 }
 
 .contenedor-h1 {
