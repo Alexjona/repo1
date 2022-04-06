@@ -48,33 +48,62 @@
 
 
     <!-- inicia main -->
-    <main class="clientes">
+    <section>
+        <h1 class="animated zoomInDown Nos_contenido__titulo--xxl">Confian en nosotros</h1>
+    </section>
+    <section class="cards">
+        <div class="cards-container">
+            <div class="card-1" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>MercadoLibre</p>
+                <img src="./../img/mercadolibre.png" alt="logo de mercadolibre" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
 
-        <section>
-            <div>
-                <p class="clientes__text">MercadoLibre</p>
-                <img src="img/mercadolibre.png" alt="logo de mercadolibre" class="clientes__foto"> <br>
             </div>
-            <div>
-                <p class="clientes__text">Nissan</p>
-                <img src="img/nissan.png" alt="logo de nissan" class="clientes__foto"> <br>
+
+            <div class="card-2" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>Globant</p>
+                <img src="./../img/Globant.png" alt="logo de nissan" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
+
             </div>
-        </section>
-        <section>
-            <div>
-                <p class="clientes__text">Adidas</p>
-                <img src="img/adidas.png" alt="logo de adidas" class="clientes__foto"> <br>
+
+            <div class="card-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>Nissan</p>
+                <img src="./../img/nissan.png" alt="logo de nissan" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
+
             </div>
-            <div>
-                <p class="clientes__text">Nike</p>
-                <img src="img/nike.png" alt="logo de nike" class="clientes__foto"> <br>
+
+
+
+
+    </section>
+    <section class="cards">
+        <div class="cards-container">
+
+            <div class="card-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>Adidas</p>
+                <img src="./../img/adidas.png" alt="logo de adidas" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
             </div>
-        </section>
-        <br> <br>
-        <section>
-            <p class="clientes__text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, id reiciendis laborum itaque omnis eaque maiores eos in suscipit aliquid maxime iste, deleniti sed debitis quia officia fugiat, amet dolor.</p>
-        </section>
-    </main>
+
+            <div class="card-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>Nike</p>
+                <img src="./../img/nike.png" alt="logo de nike" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
+
+            </div>
+
+            <div class="card-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <p>Uber</p>
+                <img src="./../img/Uber.png" alt="logo de nike" class="clientes__foto">
+                <button class="button-2">Ver mas</button>
+
+            </div>
+    </section>
+
+
+
 
     <footer class="mt-5 p-4 botonera-color text-center ">
         <h3 class="pie__titulo--md ">Seguinos en nuestras redes</h3>
@@ -97,7 +126,22 @@
     <script>
         AOS.init();
     </script>
-
+    <script>
+        (function(b, c) {
+            var e = document.createElement('link');
+            e.rel = 'stylesheet', e.type = 'text/css', e.href = 'https://chatboxlive.blahbox.net/static/css/main.css', document.getElementsByTagName('head')[0].appendChild(e);
+            var f = document.createElement('script');
+            f.onload = function() {
+                var g;
+                if (c) g = 'previewInit';
+                else {
+                    var h = document.createElement('div');
+                    g = 'cbinit', h.id = 'cbinit', document.body.append(h)
+                }
+                console.log(document.querySelector('#' + g)), chatbox.initChat(document.querySelector('#' + g), b, c)
+            }, f.src = 'https://chatboxlive.blahbox.net/static/js/chat-lib.js', document.getElementsByTagName('head')[0].appendChild(f)
+        })('c24dacaf012fef5b4be7de42d7dd14f1', 0);
+    </script>
 </body>
 
 </html>

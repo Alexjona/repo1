@@ -1,3 +1,50 @@
+//Mixin
+@mixin container ($height, $width, $display, $direction, $justify) {
+    height: $height;
+    width: $width;
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+//CARDS
+.cards {
+    height: 50vh;
+    .cards-container {
+        @include container(100%, auto, flex, row, space-around);
+        align-items: center;
+        @for $i from 1 through 6 {
+            .card-#{$i} {
+                @include container(85%, 30%, flex, column, space-around);
+                align-items: center;
+                border: 2px solid $color-border;
+                p {
+                    font-family: 'Advent Pro', bold;
+                    font-size: 3rem;
+                    color: $color-background;
+                }
+                button {
+                    font-family: 'Advent Pro', sans-serif;
+                    height: 10%;
+                    width: 25%;
+                    background-color: $color-background;
+                    border: 3px solid $color-border;
+                    border-radius: 0.30rem;
+                }
+                .button-2 {
+                    @extend button;
+                    color: white;
+                    font-size: 2em;
+                }
+                button:hover {
+                    background-color: $color-hover;
+                }
+            }
+        }
+    }
+}
+
+//Nav------------
 nav {
     background-color: $color-background;
     div {
