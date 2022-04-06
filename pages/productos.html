@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- inicia nav -->
     <nav class="navbar navbar-expand-lg navbar-light botonera-color">
         <div class="container-fluid">
             <a class="navbar-brand" href="./../index.html">
@@ -24,8 +25,8 @@
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -45,37 +46,42 @@
         </div>
 
     </nav>
+    <!-- fin nav -->
+    <img src="img/header.png" alt="fondo power-bot" class="Productos__img--fluid">
 
 
     <!-- inicia main -->
-    <main class="clientes">
-
-        <section>
-            <div>
-                <p class="clientes__text">MercadoLibre</p>
-                <img src="img/mercadolibre.png" alt="logo de mercadolibre" class="clientes__foto"> <br>
-            </div>
-            <div>
-                <p class="clientes__text">Nissan</p>
-                <img src="img/nissan.png" alt="logo de nissan" class="clientes__foto"> <br>
-            </div>
+    <h1 class="Productos__titulo--xxl">Conoce nuestros planes</h1>
+    <main>
+        <section class="Productos__tabla">
+            <table border="5px" cellpadding="9px" cellspacing="9px">
+                <tr>
+                    <th>Tipo</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Chatbot Q&A</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, obcaecati tempora quaerat repellat totam itaque exercitationem laborum excepturi, sed consectetur ex, facere tenetur commodi vel. Sit recusandae alias sapiente odit.</td>
+                    <td>$2000 USD</td>
+                </tr>
+                <tr>
+                    <td>Chatbot BD</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, vero reprehenderit expedita at natus hic, deleniti quam aspernatur accusamus minus reiciendis ipsam iusto delectus impedit sint cum provident. Facere, pariatur!</td>
+                    <td>$4000 USD</td>
+                </tr>
+                <tr>
+                    <td>Chatbot IA</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia fuga, veritatis fugiat labore, temporibus dicta modi nemo quae pariatur ea necessitatibus aspernatur distinctio dignissimos aut perspiciatis esse ratione maiores!</td>
+                    <td>$6000 USD</td>
+                </tr>
+            </table>
         </section>
+        <br> <br> <br> <br> <br>
         <section>
-            <div>
-                <p class="clientes__text">Adidas</p>
-                <img src="img/adidas.png" alt="logo de adidas" class="clientes__foto"> <br>
-            </div>
-            <div>
-                <p class="clientes__text">Nike</p>
-                <img src="img/nike.png" alt="logo de nike" class="clientes__foto"> <br>
-            </div>
-        </section>
-        <br> <br>
-        <section>
-            <p class="clientes__text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, id reiciendis laborum itaque omnis eaque maiores eos in suscipit aliquid maxime iste, deleniti sed debitis quia officia fugiat, amet dolor.</p>
+            <a href="contacto.html "><input type="button " value="Contactanos " class="btn "></a>
         </section>
     </main>
-
     <footer class="mt-5 p-4 botonera-color text-center ">
         <h3 class="pie__titulo--md ">Seguinos en nuestras redes</h3>
         <div>
@@ -92,6 +98,7 @@
 
     </footer>
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
