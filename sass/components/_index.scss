@@ -10,6 +10,7 @@
 //CARDS
 .cards {
     height: 50vh;
+    display: flex;
     .cards-container {
         @include container(100%, auto, flex, row, space-around);
         align-items: center;
