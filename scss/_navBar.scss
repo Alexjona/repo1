@@ -1,0 +1,25 @@
+//Nav------------
+nav {
+    background-color: $color-background;
+    div {
+        a {
+            img {
+                width: 5em;
+                height: 5em;
+                display: inline;
+                size: 5em;
+            }
+            p {
+                font-family: 'Anton', sans-serif;
+                display: inline-block;
+                justify-content: center;
+                text-align: justify;
+                vertical-align: middle;
+                margin-left: 10px;
+                font-size: 3em;
+                color: white;
+                align-content: center;
+            }
+        }
+    }
+}
