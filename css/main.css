@@ -45,7 +45,8 @@ p {
 
 .cards {
   height: 50vh;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .cards .cards-container {
     height: 100%;
     width: auto;
@@ -67,8 +68,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-1 button, .cards .cards-container .card-1 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }
@@ -91,8 +92,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-2 button, .cards .cards-container .card-2 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }
@@ -115,8 +116,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-3 button, .cards .cards-container .card-3 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }
@@ -139,8 +140,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-4 button, .cards .cards-container .card-4 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }
@@ -163,8 +164,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-5 button, .cards .cards-container .card-5 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }
@@ -187,8 +188,8 @@ p {
         color: #19A1D8; }
       .cards .cards-container .card-6 button, .cards .cards-container .card-6 .button-2 {
         font-family: 'Advent Pro', sans-serif;
-        height: 10%;
-        width: 25%;
+        height: 15%;
+        width: 50%;
         background-color: #19A1D8;
         border: 3px solid white;
         border-radius: 0.30rem; }

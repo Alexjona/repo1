@@ -33,6 +33,7 @@ p {
 .cards {
     height: 50vh;
     display: flex;
+    flex-direction: column;
     .cards-container {
         @include container(100%, auto, flex, row, space-around);
         align-items: center;
@@ -48,8 +49,8 @@ p {
                 }
                 button {
                     font-family: 'Advent Pro', sans-serif;
-                    height: 10%;
-                    width: 25%;
+                    height: 15%;
+                    width: 50%;
                     background-color: $color-background;
                     border: 3px solid $color-border;
                     border-radius: 0.30rem;
