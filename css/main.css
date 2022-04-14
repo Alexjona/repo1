@@ -203,7 +203,7 @@ p {
 .hero-banner {
   background: linear-gradient(90deg, #3090bd 0%, rgba(55, 132, 160, 0.953) 24%, rgba(6, 160, 191, 0.329) 100%); }
 
-/* Transformacion */
+/*Transformacion */
 .trans {
   transform: rotate(-5deg); }
 
